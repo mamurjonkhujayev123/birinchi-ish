@@ -1,0 +1,630 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    color: white;
+     border: 1px sold black; 
+     width: 80%;
+     margin: 0 auto;
+}
+
+.menyu{
+   display: flex;
+   align-items: center;
+   color: white;
+}
+
+.menyu h3{
+    padding: 25px;
+}
+.home-body{
+    color: white;
+    display: flex;
+   align-items: center;
+    padding-top: 120px;
+    height: 80vh;
+    flex-direction: column;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    height: 1px;
+    background-color:rgb(196, 182, 182);
+}
+
+.home-body h1{
+    font-size:50px;
+}
+.home-body h3 {
+    padding-top: 30px;
+    font-style: italic;
+    color: rgb(203, 188, 188);
+}
+
+.home-body button{
+    margin-top: 60px;
+    background-color: transparent;
+    padding: 10px 45px;
+    border: 1px solid white;
+    color: white;
+}
+
+
+.abaout h1{
+
+display: flex;
+justify-content: center;
+padding-top: 90px;
+}
+
+.abaout{
+    height: 100vh;
+    text-align: center;
+}
+
+.abaout hr{
+    border:1px solid black;
+    width: 60px;
+    margin-top: 50px;
+    height: 5px;
+    background-color: rgb(119, 119, 207);
+}
+
+.abaout p{
+padding-top: 70px;
+color: rgb(161, 149, 149);
+margin: 0 auto;
+width: 40%;
+word-spacing: 15px;
+}
+
+.abaout img{
+   margin-top: 60px;
+}
+
+.abaout h5{
+    padding-top: 80px;
+}
+
+.expert{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.expert .img{
+    background-image: url(laptop.jpg);
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.expert .text{
+    width: 50%;
+    
+}
+
+.text ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text ul li:nth-child(2){
+    margin-left: 15px;
+}
+
+.text ul li:nth-child(1){
+    width: 13px;
+    height: 13px;
+
+}
+.text ul li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    list-style: none;
+    
+   margin-top: 30px;
+} 
+
+.expert h1{
+    padding-top: 80px;
+    margin: 0 auto;
+   width: 50%; 
+   
+}
+
+.expert hr{
+    border: 1px solid rgb(113, 113, 229);
+    width: 60px;
+    margin-top: 50px;
+    height: 5px;
+    background-color: rgb(102, 102, 243);
+}
+
+
+.expert p{
+    padding-top: 60px;
+    margin: 0 auto;
+    width: 60%;
+    word-spacing: 15px;
+    font-style: italic;
+}
+
+/* turtinchi bet */
+
+.we-do{
+    height: 100vh;
+}
+
+.wedo-text h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-top: 70px;
+
+}
+
+.line{
+    width: 50px;
+    height: 5px;
+    background-color: green;
+    margin: 30px auto;
+    margin-top: 40px;
+}
+
+.blocks{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+
+.block{
+    width: 29%;
+}
+
+.circle{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 60px;
+    
+
+}
+
+.circle-in{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-in i{
+    font-size: 30px;
+    color: white;
+    
+}
+
+
+.wedo-line{
+    width: 60px;
+    height: 1px;
+    background-color: green;
+    margin: 20px 0;
+}
+
+.block h2{
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 800;
+    padding-left: 80px;
+    padding-top: 0px;
+} 
+
+.block p{
+    font-family: 'Kolker Brush', cursive;
+    font-size: 30px;
+    font-weight: 100px;
+    text-align: center;
+}
+
+
+
+/* beshinchi bet */
+
+
+.user{
+    background-image: url(book.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user i{
+display: flex;
+align-items: center;
+color: white;
+justify-content: center;
+font-size: 30px;
+}
+
+.user p:nth-child(2){
+    color: white;
+    margin: 90px 0;
+    font-size: 40px;
+    font-style: italic ;
+}
+
+.user i:nth-child(4){
+    margin-top: 90px;
+}
+
+.user p:nth-child(3){
+    color: white;
+    font-size:20px;
+    font-style: italic;
+}
+
+/* oltinchi bet */
+
+
+.our{
+    height: 100vh;
+    
+}
+
+.work-text h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.work-text hr{
+    border: 1px solid rgb(113, 113, 229);
+    width: 60px;
+    margin-top: 50px;
+    height: 5px;
+    background-color: rgb(102, 102, 243);  
+}
+
+.our-cards{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 70%;
+    
+    justify-content: space-between;
+}
+.our-card{
+    height:400px ;
+    width: 29%;
+}
+
+.our-card img{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-card h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.our-card hr{
+    border: 1px solid rgb(113, 113, 229);
+    width: 60px;
+    margin-top: 20px;
+    height: 2px;
+    background-color: rgb(102, 102, 243); 
+}
+
+.our-card p{
+    margin-top:20px ;
+    font-style: italic;
+    color: gray;
+    text-align: center;
+}
+
+
+.our ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our ul li:nth-child(2){
+    margin-left: 15px;
+}
+
+.our ul li:nth-child(1){
+    width: 13px;
+    height: 13px;
+
+}
+.our ul li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(70, 70, 235);
+    list-style: none;
+    
+   margin-top: 30px;
+} 
+
+
+.sea{
+    background-image: url(sea.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.sea p{
+    font-style: italic;
+    font-size: 100px;
+    color: white;
+   display: flex;
+    align-items: center;
+    margin: 20px 50px;
+    padding-top: 23%;
+
+}
+.sea i{
+    margin: 0 15px;
+    font-size: 100px;
+    color: white;
+    
+}
+
+/* sakkizinchi bet */
+
+.team{
+    height: 100vh;
+}
+
+.team h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+
+.team hr{
+    border: 2px solid rgb(86, 86, 228);
+    width: 50px;
+    background-color: rgb(62, 62, 219);
+    margin-top: 60px;
+    height: 5px;
+}
+.team-cards{
+    display: flex;
+    margin: 40px auto;
+    width: 80%;
+   
+   justify-content: space-between;
+   
+}
+
+.team-card{
+   
+   width: 30%;
+   height: 550px;
+   
+}
+
+
+.team-card img{
+    width: 300px;
+    height: 250px;
+}
+
+
+
+.team-card h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team-card hr{
+    border: 1px solid rgb(112, 112, 233);
+    width: 60px;
+    background-color: rgb(81, 81, 232);
+    margin-top: 20px;
+}
+
+.team-card p{
+    text-align: center;
+    font-style: italic;
+    color: grey;
+    margin-top: 30px;
+}
+
+.team-card button{
+  margin-top: 30px;
+   font-size: 30px;
+   /* margin-left: 70px; */
+   background-color: rgb(19, 19, 237);
+}
+
+.team-card button:nth-child(5){
+    margin-left: 130px;
+    color: white;
+}
+
+.team-card button:nth-child(6){
+    color: white;
+}
+
+
+.send{
+    background-image: url(kong.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.send h1{
+    font-size: 50px;
+    font-style: italic;
+    color: white;
+    padding-top: 15%;
+
+}
+
+.send button{
+    margin-top: 70px;
+     
+
+    
+    width: 300px;
+    height: 40px;
+    font-size: large;
+    font-style: italic;
+}
+
+.send button:nth-child(2){
+ margin-left: 400px; 
+ background: transparent;  
+ border:1px solid white;
+}
+
+/* uninchi bet */
+
+
+.drop{
+    height: 100vh;
+}
+
+.drop-cards{
+   display: flex;
+    width: 80%;
+    height: 200px;
+    justify-content: space-between;
+    margin: 50px  auto;
+    
+}
+
+.drop-card{
+    
+    width: 29%;
+    
+
+}
+
+.drop-card i{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    color: rgb(18, 136, 136);
+
+}
+
+
+.drop-card h2{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 35px;
+
+
+}
+
+.drop-card p{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(36, 33, 33);
+}
+
+.drop-card hr{
+    border: 1px;
+    height: 2px;
+}
+
+
+.drop button{
+    margin-top: 30px;
+     font-size: 30px;
+     /* margin-left: 70px; */
+     background-color: rgb(39, 39, 218);
+  }
+  
+  .drop button:nth-child(3){
+      margin-left: 46%;
+      color: white;
+  }
+  
+  .drop button:nth-child(4){
+       color: white; 
+  }
+
+  .drop button:nth-child(5){
+    color:white;
+    width: 35px;
+  }
+
+  .dropp p{
+    display: flex;
+    justify-content: center;
+     padding-top: 160px; 
+     font-size: 20px;
+     font-style: italic;
+     font-weight: 800;
+  }
+
+  .dropp i{
+    color: rgb(0, 132, 255);
+  }
+  
